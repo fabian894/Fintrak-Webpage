@@ -1,0 +1,61 @@
+body{
+	
+	margin: 0px; padding: 0px;
+}
+#Container{
+	width : 1000px;
+	height: 1000px;
+	border: 1px solid red;
+}
+
+#HeaderNavigation{
+	height: 100px;
+	width: auto;
+	border: 1px solid red;
+	background-color: gray;
+}
+
+#HeaderNavigation img{
+	float:left;
+	width: 150px;
+}
+#HeaderNavigation ul li{
+	list-style-type: none;
+	float:right;
+	margin: 5px;
+	text-decoration: underline;
+}
+
+#HeaderNavigation ul li a{
+	text-decoration:none;
+	color: #fff;
+}
+
+#SidebarNavigation{
+	height: 896px;
+	width: 200px;
+	border: 1px solid red;
+	float: left;
+	background-color: gold;
+}
+
+#NotificationRegion{
+	height: 100px;
+	width: 796px;
+	border: 1px solid red;
+	background-color: white;
+	color: #000;
+	float: right;
+}
+#BodyRegion{
+	height: 690px;
+	width: 796px;
+	border: 1px solid red;
+	float: right;
+}
+#FooterRegion{
+	height: 100px;
+	width: 795px;
+	border: 1px solid red;
+	float:right;
+}
